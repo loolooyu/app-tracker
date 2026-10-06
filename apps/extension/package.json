@@ -1,0 +1,14 @@
+{
+  "name": "@appfolio/extension",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "build": "node scripts/build.mjs"
+  },
+  "dependencies": {
+    "@appfolio/shared": "1.0.0",
+    "react": "19.3.0",
+    "react-dom": "19.3.0"
+  }
+}

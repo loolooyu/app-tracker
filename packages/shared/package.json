@@ -1,0 +1,14 @@
+{
+  "name": "@appfolio/shared",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/index.ts",
+    "./extract": "./src/extract/index.ts",
+    "./url": "./src/url.ts"
+  },
+  "dependencies": {
+    "zod": "4.6.5"
+  }
+}

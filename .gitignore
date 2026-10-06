@@ -1,3 +1,27 @@
 node_modules/
+dist/
 .env
+.env.*
 .DS_Store
+*.log
+
+# Local data: databases, uploaded documents, pairing tokens, backups.
+# Never commit these.
+.appfolio-data/
+.demo-data/
+.test-data/
+*.sqlite
+*.sqlite-*
+*.db
+*.db-wal
+*.db-shm
+auth.json
+*.appfolio-backup.zip
+backups/
+
+# Real job descriptions captured for debugging must stay out of Git.
+# Only sanitized synthetic fixtures belong in tests/fixtures/.
+tests/fixtures/real/
+test-results/
+playwright-report/
+.playwright/
